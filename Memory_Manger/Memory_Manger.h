@@ -1,10 +1,6 @@
 #ifndef __MEMORY_MANAGER_H__
 #define __MEMORY_MANAGER_H__
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 
 #define MEM_SIZE(bsize, nblocks)       (((bsize) + sizeof(struct mm_block_hdr))*(nblocks))
 
